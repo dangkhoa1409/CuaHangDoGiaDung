@@ -24,7 +24,10 @@ namespace QuanLyCHDoGiaDung
 
         private void QuanLyTrangChu_Load(object sender, EventArgs e)
         {
-
+          
+            Bitmap bmp = (Bitmap) Properties.Resources.ResourceManager.GetObject("b7456707e25834066d49 ");
+            
+            this.BackgroundImage = bmp;
         }
 
         private void label16_Click(object sender, EventArgs e)
@@ -103,6 +106,16 @@ namespace QuanLyCHDoGiaDung
         }
 
         private void listView3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

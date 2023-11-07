@@ -16,7 +16,7 @@ namespace QuanLyCHDoGiaDung
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QuanLyTrangChu());
+            Application.Run(new DetailProduct());
         }
     }
 }
