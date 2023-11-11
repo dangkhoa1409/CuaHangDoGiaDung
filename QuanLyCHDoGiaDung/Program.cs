@@ -14,9 +14,10 @@ namespace QuanLyCHDoGiaDung
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DetailProduct());
+            Application.Run(new TrangChu());
         }
     }
 }

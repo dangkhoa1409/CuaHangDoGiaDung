@@ -68,11 +68,23 @@
     <Compile Include="Bill.Designer.cs">
       <DependentUpon>Bill.cs</DependentUpon>
     </Compile>
+    <Compile Include="formCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCart.Designer.cs">
+      <DependentUpon>formCart.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangKy.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DangKy.Designer.cs">
       <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="DetailProduct.cs">
       <SubType>Form</SubType>
@@ -86,13 +98,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="model\abc.cs" />
+    <Compile Include="model\indentityId.cs" />
+    <Compile Include="model\bill.cs" />
+    <Compile Include="model\billItem.cs" />
+    <Compile Include="model\cartItem.cs" />
+    <Compile Include="model\carts.cs" />
+    <Compile Include="model\category.cs" />
+    <Compile Include="model\component.cs" />
+    <Compile Include="model\model.cs" />
+    <Compile Include="model\product.cs" />
+    <Compile Include="model\session.cs" />
+    <Compile Include="model\user.cs" />
     <Compile Include="QuanLyNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +133,12 @@
     <Compile Include="QuanLyTrangChu.Designer.cs">
       <DependentUpon>QuanLyTrangChu.cs</DependentUpon>
     </Compile>
+    <Compile Include="showProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showProduct.Designer.cs">
+      <DependentUpon>showProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,8 +150,14 @@
     <EmbeddedResource Include="Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formCart.resx">
+      <DependentUpon>formCart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DetailProduct.resx">
       <DependentUpon>DetailProduct.cs</DependentUpon>
@@ -133,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLyTrangChu.resx">
       <DependentUpon>QuanLyTrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showProduct.resx">
+      <DependentUpon>showProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
@@ -182,7 +225,22 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\C23_KietNgoTuan.png" />
+    <Content Include="images\chao-khong-dinh.jpg" />
+    <Content Include="images\dao-thai-lan.png" />
+    <Content Include="images\noi-ap-suat.jpg" />
+    <Content Include="images\noi-inox.jpg" />
+    <Content Include="images\thot-go.png" />
+    <Content Include="images\thot.jpg" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\shopping-cart %281%29.png" />
+    <None Include="Resources\shopping-cart.png" />
+    <None Include="Resources\435324e340cc4784a8acaca7c480c21f.png" />
+    <Content Include="images\user.png" />
     <Content Include="Resources\degisn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

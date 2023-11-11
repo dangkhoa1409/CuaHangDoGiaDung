@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using QuanLyCHDoGiaDung.model;
+using System.IO;
+using System.Drawing.Imaging;
 namespace QuanLyCHDoGiaDung
 {
     
@@ -20,11 +22,16 @@ namespace QuanLyCHDoGiaDung
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            abc clazz = new abc();
-            clazz.setImage("b7456707e25834066d49");
-            Bitmap bmp = (Bitmap)Properties.Resources.ResourceManager.GetObject(clazz.getImage());
 
-            this.BackgroundImage = bmp;
+            
+            string imagePath = Path.Combine(Application.StartupPath, "..\\..\\images");
+            Image image = Image.FromFile("C:\\Users\\MSI PC\\Desktop\\C7_KietNgoTuan.png");
+            Image newImage = new Bitmap(image);
+            image.Save("C:\\Users\\MSI PC\\source\\repos\\CuaHangDoGiaDung\\CuaHangDoGiaDung\\QuanLyCHDoGiaDung\\images\\C7_KietNgoTuan.png",ImageFormat.Png);
+            string imagePath2 = Path.Combine(Application.StartupPath, "..\\..\\images", "C7_KietNgoTuan.png");
+            pictureBox1.Image = Image.FromFile(imagePath2);
+
+
         }
     }
 }

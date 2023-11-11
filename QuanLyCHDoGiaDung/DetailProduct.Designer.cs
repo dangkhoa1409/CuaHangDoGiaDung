@@ -29,13 +29,6 @@ namespace QuanLyCHDoGiaDung
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
-            "H01",
-            "Cối xay gió",
-            "Bông",
-            "vn",
-            "8",
-            "829"}, -1);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -56,7 +49,6 @@ namespace QuanLyCHDoGiaDung
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -180,8 +172,6 @@ namespace QuanLyCHDoGiaDung
             this.columnHeader6});
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
             this.listView1.Location = new System.Drawing.Point(15, 205);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(1065, 290);
@@ -219,15 +209,6 @@ namespace QuanLyCHDoGiaDung
             this.columnHeader6.Text = "Đơn giá";
             this.columnHeader6.Width = 156;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(1005, 65);
@@ -236,6 +217,7 @@ namespace QuanLyCHDoGiaDung
             this.button2.TabIndex = 15;
             this.button2.Text = "Mở";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -245,6 +227,7 @@ namespace QuanLyCHDoGiaDung
             this.button3.TabIndex = 16;
             this.button3.Text = "Thêm";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -254,6 +237,7 @@ namespace QuanLyCHDoGiaDung
             this.button4.TabIndex = 17;
             this.button4.Text = "Cập nhập";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // DetailProduct
             // 
@@ -263,7 +247,6 @@ namespace QuanLyCHDoGiaDung
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -280,6 +263,7 @@ namespace QuanLyCHDoGiaDung
             this.Controls.Add(this.label1);
             this.Name = "DetailProduct";
             this.Text = "DetailProduct";
+            this.Load += new System.EventHandler(this.DetailProduct_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,7 +291,6 @@ namespace QuanLyCHDoGiaDung
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
