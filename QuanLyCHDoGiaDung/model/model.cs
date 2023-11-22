@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.IO;
+using System.Drawing.Imaging;
 namespace QuanLyCHDoGiaDung.model
 {
     class model
@@ -102,7 +103,7 @@ namespace QuanLyCHDoGiaDung.model
             List<billItem> bills1 = new List<billItem>();
             bills1.Add(billItem);
             bills1.Add(billItem1);
-            bill bill1 = new bill("HD01", users[0], bills1, totalBill(bills1), DateTime.Now);
+            bill bill1 = new bill("HD01", users[2], bills1, totalBill(bills1), DateTime.Now);
             billItem billItem2 = new billItem(products[0], 2, products[0].getGia() * 2);
             List<billItem> bills2 = new List<billItem>();
             bills2.Add(billItem2);
@@ -156,11 +157,26 @@ namespace QuanLyCHDoGiaDung.model
             {
                 if (products[i].getMaSp().Equals(product.getMaSp()))
                 {
-                    products[i] = product;
+                     products[i] = product;
+                    
                 }
             }
 
         }
+       public product getProductById(String maSp)
+        {
+            for (int i = 0; i < products.Count; i++)
+            {
+                if (products[i].getMaSp().Equals(maSp))
+                {
+
+                    return products[i];
+
+                }
+            }
+            return null;
+        }
+        
 
         public void addProduct(product product)
         {

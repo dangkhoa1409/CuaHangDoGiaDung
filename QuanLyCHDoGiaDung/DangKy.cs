@@ -49,9 +49,34 @@ namespace QuanLyCHDoGiaDung
             String password = lblMKDangKy.Text;
             String ten = textBox1.Text;
             String diaChi = textBox2.Text;
-            user user = new user(userName, password, ma, ten, diaChi, "USER", DateTime.Now);
-            component.model.addUser(user);
-            this.Close();
+            if(ma != "" && userName != "" && password != "" && ten != "" && diaChi != "")
+            {
+                user user = new user(userName, password, ma, ten, diaChi, "USER", DateTime.Now);
+                component.model.addUser(user);
+                this.Close();
+            }
+            else
+            {
+                check(errorProvider2, lblTKDangKy);
+                check(errorProvider3, lblMKDangKy);
+                check(errorProvider1, lblXNDangKy);
+                check(errorProvider4, textBox1);
+                check(errorProvider5, textBox2);
+
+            }
+           
+        }
+        private void check(ErrorProvider errorProvider, TextBox textBox)
+        {
+            if(textBox.Text == "")
+            {
+                errorProvider.SetError(textBox, "Không để được trống dữ liệu ");
+            }
+        }
+        private void DangKy_Load(object sender, EventArgs e)
+        {
+            btnXacNhanDangKy.Cursor = Cursors.Hand;
+            btnTroLaiDangKy.Cursor = Cursors.Hand;
         }
     }
 }

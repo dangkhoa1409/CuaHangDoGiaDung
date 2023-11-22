@@ -22,7 +22,8 @@ namespace QuanLyCHDoGiaDung
         }
 
         private void cart_Load(object sender, EventArgs e)
-        {   if(session.user != null)
+        {   
+            if(session.user != null)
             {
                 flowLayoutPanel = new FlowLayoutPanel();
                 flowLayoutPanel.Location = new Point(10, 80);
@@ -71,7 +72,8 @@ namespace QuanLyCHDoGiaDung
                 }
                 this.Controls.Add(flowLayoutPanel);
             }
-           
+
+            button1.Cursor = Cursors.Hand;
         }
         private Image GetImage(String fileName)
         {
@@ -90,7 +92,18 @@ namespace QuanLyCHDoGiaDung
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if(session.user == null)
+            {
+                DangNhap dangNhap = new DangNhap();
+                dangNhap.ShowDialog();
+                return;
+            }
             carts cart = session.user.getCart();
+            if(cart.getCartItems().Count <= 0)
+            {
+                MessageBox.Show("giỏ hàng hiện không có sản phẩm");
+                return;
+            }
             List<cartItem> cartItems = new List<cartItem>();
             List<billItem> billItems = new List<billItem>();
             foreach (Control c in flowLayoutPanel.Controls)
@@ -134,13 +147,14 @@ namespace QuanLyCHDoGiaDung
                     }
                    
                 }
+               
             }
             String maHd = "HD" + (component.model.getBills().Count + 1);
             bill bill1 = new bill(maHd, session.user, billItems, component.model.totalBill(billItems), DateTime.Now);
             component.model.addBill(bill1);
             cart.removeItems(cartItems);
             MessageBox.Show("Mua hàng thành công");
-            this.Refresh();
+            this.Dispose();
         }
     }
 }

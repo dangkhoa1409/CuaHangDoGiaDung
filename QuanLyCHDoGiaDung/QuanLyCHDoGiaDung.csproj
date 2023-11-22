@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>QuanLyCHDoGiaDung</RootNamespace>
     <AssemblyName>QuanLyCHDoGiaDung</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -27,6 +27,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -232,8 +233,9 @@
     <Content Include="images\noi-inox.jpg" />
     <Content Include="images\thot-go.png" />
     <Content Include="images\thot.jpg" />
+    <Content Include="Resources\shopping-cart %281%29.png" />
+    <None Include="Resources\Monochrome Black and White Home Appliances Instagram Post.png" />
     <None Include="Resources\user.png" />
-    <None Include="Resources\shopping-cart %281%29.png" />
     <None Include="Resources\shopping-cart.png" />
     <None Include="Resources\435324e340cc4784a8acaca7c480c21f.png" />
     <Content Include="images\user.png" />

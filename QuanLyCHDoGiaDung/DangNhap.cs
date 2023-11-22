@@ -19,27 +19,43 @@ namespace QuanLyCHDoGiaDung
 
         private void DangNhap_Load(object sender, EventArgs e)
         {
-
+            button1.Cursor = Cursors.Hand;
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            Boolean login = component.model.login(textBox1.Text, textBox2.Text);
-            if (login)
+        {  if(textBox1.Text != "" && textBox2.Text != "")
             {
-                this.Close();
+                Boolean login = component.model.login(textBox1.Text, textBox2.Text);
+                if (login)
+                {
+                    this.Close();
+                    return;
+                }
+                MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác");
+                this.textBox1.Clear();
+                this.textBox2.Clear();
+                this.textBox1.Focus();
                 return;
             }
-            MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác");
-            this.textBox1.Clear();
-            this.textBox2.Clear();
-            this.textBox1.Focus();
+            else
+            {
+                check(errorProvider1, textBox1);
+                check(errorProvider2, textBox2);
+            }
+            
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
             DangKy form = new DangKy();
             form.ShowDialog();
+        }
+        private void check(ErrorProvider errorProvider, TextBox textBox)
+        {
+            if (textBox.Text == "")
+            {
+                errorProvider.SetError(textBox, "Không để được trống dữ liệu ");
+            }
         }
     }
 }

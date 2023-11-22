@@ -102,7 +102,7 @@ namespace QuanLyCHDoGiaDung
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 577);
+            this.label1.Size = new System.Drawing.Size(86, 469);
             this.label1.TabIndex = 0;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -112,10 +112,10 @@ namespace QuanLyCHDoGiaDung
             this.label2.BackColor = System.Drawing.Color.LightCoral;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(16, 106);
+            this.label2.Location = new System.Drawing.Point(12, 86);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 40);
+            this.label2.Size = new System.Drawing.Size(67, 34);
             this.label2.TabIndex = 1;
             this.label2.Text = "Xin chào:\r\nAdmin";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -126,10 +126,10 @@ namespace QuanLyCHDoGiaDung
             this.label3.BackColor = System.Drawing.Color.LightCoral;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(23, 182);
+            this.label3.Location = new System.Drawing.Point(17, 148);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 40);
+            this.label3.Size = new System.Drawing.Size(54, 34);
             this.label3.TabIndex = 2;
             this.label3.Text = "Quyền:\r\nadmin";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -137,10 +137,10 @@ namespace QuanLyCHDoGiaDung
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button1.Location = new System.Drawing.Point(8, 260);
+            this.button1.Location = new System.Drawing.Point(6, 211);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 42);
+            this.button1.Size = new System.Drawing.Size(75, 34);
             this.button1.TabIndex = 4;
             this.button1.Text = "Đăng xuất";
             this.button1.UseVisualStyleBackColor = true;
@@ -151,10 +151,10 @@ namespace QuanLyCHDoGiaDung
             this.label4.Dock = System.Windows.Forms.DockStyle.Top;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(115, 0);
+            this.label4.Location = new System.Drawing.Point(86, 0);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(991, 55);
+            this.label4.Size = new System.Drawing.Size(744, 45);
             this.label4.TabIndex = 5;
             this.label4.Text = "Đồ gia dụng Gu Gô";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -175,10 +175,10 @@ namespace QuanLyCHDoGiaDung
             this.tabPage5.Controls.Add(this.label26);
             this.tabPage5.Controls.Add(this.label27);
             this.tabPage5.Controls.Add(this.label28);
-            this.tabPage5.Location = new System.Drawing.Point(4, 33);
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(911, 479);
+            this.tabPage5.Size = new System.Drawing.Size(681, 386);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "HOÁ ĐƠN";
             // 
@@ -186,9 +186,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(761, 172);
+            this.button2.Location = new System.Drawing.Point(566, 137);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 42);
+            this.button2.Size = new System.Drawing.Size(89, 34);
             this.button2.TabIndex = 33;
             this.button2.Text = "Xem chi tiết";
             this.button2.UseVisualStyleBackColor = false;
@@ -205,10 +206,10 @@ namespace QuanLyCHDoGiaDung
             this.listView4.FullRowSelect = true;
             this.listView4.GridLines = true;
             this.listView4.HideSelection = false;
-            this.listView4.Location = new System.Drawing.Point(4, 61);
+            this.listView4.Location = new System.Drawing.Point(3, 50);
             this.listView4.Margin = new System.Windows.Forms.Padding(2);
             this.listView4.Name = "listView4";
-            this.listView4.Size = new System.Drawing.Size(711, 407);
+            this.listView4.Size = new System.Drawing.Size(534, 331);
             this.listView4.TabIndex = 32;
             this.listView4.UseCompatibleStateImageBehavior = false;
             this.listView4.View = System.Windows.Forms.View.Details;
@@ -216,12 +217,12 @@ namespace QuanLyCHDoGiaDung
             // columnHeader13
             // 
             this.columnHeader13.Text = "MÃ HĐ";
-            this.columnHeader13.Width = 221;
+            this.columnHeader13.Width = 95;
             // 
             // columnHeader14
             // 
             this.columnHeader14.Text = "TÊN KHÁCH HÀNG";
-            this.columnHeader14.Width = 300;
+            this.columnHeader14.Width = 230;
             // 
             // columnHeader15
             // 
@@ -235,10 +236,10 @@ namespace QuanLyCHDoGiaDung
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(732, 108);
+            this.textBox4.Location = new System.Drawing.Point(549, 88);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(159, 27);
+            this.textBox4.Size = new System.Drawing.Size(120, 23);
             this.textBox4.TabIndex = 27;
             this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox4_KeyDown);
             this.textBox4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox4_KeyUp);
@@ -246,10 +247,10 @@ namespace QuanLyCHDoGiaDung
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(757, 86);
+            this.label25.Location = new System.Drawing.Point(568, 70);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(101, 20);
+            this.label25.Size = new System.Drawing.Size(87, 17);
             this.label25.TabIndex = 28;
             this.label25.Text = "Tìm hoá đơn";
             // 
@@ -257,10 +258,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.Silver;
-            this.label26.Location = new System.Drawing.Point(739, 10);
+            this.label26.Location = new System.Drawing.Point(554, 8);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(141, 40);
+            this.label26.Size = new System.Drawing.Size(118, 34);
             this.label26.TabIndex = 26;
             this.label26.Text = "TỔNG HOÁ ĐƠN\r\n15";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -269,10 +270,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.Silver;
-            this.label27.Location = new System.Drawing.Point(17, 20);
+            this.label27.Location = new System.Drawing.Point(13, 16);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(194, 20);
+            this.label27.Size = new System.Drawing.Size(157, 17);
             this.label27.TabIndex = 25;
             this.label27.Text = "DANH SÁCH HOÁ ĐƠN";
             // 
@@ -283,7 +284,7 @@ namespace QuanLyCHDoGiaDung
             this.label28.Location = new System.Drawing.Point(0, 0);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(911, 59);
+            this.label28.Size = new System.Drawing.Size(681, 48);
             this.label28.TabIndex = 24;
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -299,10 +300,10 @@ namespace QuanLyCHDoGiaDung
             this.tabPage4.Controls.Add(this.label19);
             this.tabPage4.Controls.Add(this.label20);
             this.tabPage4.Controls.Add(this.label24);
-            this.tabPage4.Location = new System.Drawing.Point(4, 33);
+            this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(911, 479);
+            this.tabPage4.Size = new System.Drawing.Size(681, 386);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "SẢN PHẨM";
             // 
@@ -319,10 +320,10 @@ namespace QuanLyCHDoGiaDung
             this.listView3.FullRowSelect = true;
             this.listView3.GridLines = true;
             this.listView3.HideSelection = false;
-            this.listView3.Location = new System.Drawing.Point(0, 61);
+            this.listView3.Location = new System.Drawing.Point(0, 50);
             this.listView3.Margin = new System.Windows.Forms.Padding(2);
             this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(720, 396);
+            this.listView3.Size = new System.Drawing.Size(541, 322);
             this.listView3.TabIndex = 24;
             this.listView3.UseCompatibleStateImageBehavior = false;
             this.listView3.View = System.Windows.Forms.View.Details;
@@ -331,12 +332,12 @@ namespace QuanLyCHDoGiaDung
             // columnHeader9
             // 
             this.columnHeader9.Text = "MÃ SP";
-            this.columnHeader9.Width = 136;
+            this.columnHeader9.Width = 82;
             // 
             // columnHeader10
             // 
             this.columnHeader10.Text = "TÊN";
-            this.columnHeader10.Width = 300;
+            this.columnHeader10.Width = 208;
             // 
             // columnHeader11
             // 
@@ -360,10 +361,10 @@ namespace QuanLyCHDoGiaDung
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(724, 108);
+            this.textBox3.Location = new System.Drawing.Point(550, 92);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(162, 27);
+            this.textBox3.Size = new System.Drawing.Size(122, 23);
             this.textBox3.TabIndex = 19;
             this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox3_KeyDown);
             this.textBox3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox3_KeyUp);
@@ -371,10 +372,10 @@ namespace QuanLyCHDoGiaDung
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.Red;
-            this.button8.Location = new System.Drawing.Point(757, 252);
+            this.button8.Location = new System.Drawing.Point(575, 209);
             this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(95, 38);
+            this.button8.Size = new System.Drawing.Size(71, 31);
             this.button8.TabIndex = 23;
             this.button8.Text = "Xoá";
             this.button8.UseVisualStyleBackColor = false;
@@ -382,10 +383,10 @@ namespace QuanLyCHDoGiaDung
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.Goldenrod;
-            this.button9.Location = new System.Drawing.Point(757, 196);
+            this.button9.Location = new System.Drawing.Point(575, 163);
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(95, 38);
+            this.button9.Size = new System.Drawing.Size(71, 31);
             this.button9.TabIndex = 22;
             this.button9.Text = "Sửa";
             this.button9.UseVisualStyleBackColor = false;
@@ -394,10 +395,10 @@ namespace QuanLyCHDoGiaDung
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.Lime;
-            this.button10.Location = new System.Drawing.Point(757, 143);
+            this.button10.Location = new System.Drawing.Point(575, 120);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(95, 38);
+            this.button10.Size = new System.Drawing.Size(71, 31);
             this.button10.TabIndex = 21;
             this.button10.Text = "Thêm";
             this.button10.UseVisualStyleBackColor = false;
@@ -406,10 +407,10 @@ namespace QuanLyCHDoGiaDung
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(740, 86);
+            this.label18.Location = new System.Drawing.Point(562, 74);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(115, 20);
+            this.label18.Size = new System.Drawing.Size(97, 17);
             this.label18.TabIndex = 20;
             this.label18.Text = "Tìm sản phẩm";
             // 
@@ -417,10 +418,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Silver;
-            this.label19.Location = new System.Drawing.Point(724, 10);
+            this.label19.Location = new System.Drawing.Point(543, 8);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(150, 40);
+            this.label19.Size = new System.Drawing.Size(124, 34);
             this.label19.TabIndex = 18;
             this.label19.Text = "TỔNG SẢN PHẨM\r\n15";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -429,10 +430,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.Silver;
-            this.label20.Location = new System.Drawing.Point(13, 20);
+            this.label20.Location = new System.Drawing.Point(10, 16);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(203, 20);
+            this.label20.Size = new System.Drawing.Size(163, 17);
             this.label20.TabIndex = 17;
             this.label20.Text = "DANH SÁCH SẢN PHẨM";
             // 
@@ -443,7 +444,7 @@ namespace QuanLyCHDoGiaDung
             this.label24.Location = new System.Drawing.Point(0, 0);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(911, 59);
+            this.label24.Size = new System.Drawing.Size(681, 48);
             this.label24.TabIndex = 16;
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -456,10 +457,10 @@ namespace QuanLyCHDoGiaDung
             this.tabPage3.Controls.Add(this.label15);
             this.tabPage3.Controls.Add(this.label16);
             this.tabPage3.Controls.Add(this.label17);
-            this.tabPage3.Location = new System.Drawing.Point(4, 33);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(911, 479);
+            this.tabPage3.Size = new System.Drawing.Size(681, 386);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "KHÁCH HÀNG";
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
@@ -474,10 +475,10 @@ namespace QuanLyCHDoGiaDung
             this.listView2.FullRowSelect = true;
             this.listView2.GridLines = true;
             this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(2, 61);
+            this.listView2.Location = new System.Drawing.Point(0, 50);
             this.listView2.Margin = new System.Windows.Forms.Padding(2);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(696, 394);
+            this.listView2.Size = new System.Drawing.Size(523, 321);
             this.listView2.TabIndex = 16;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -485,12 +486,12 @@ namespace QuanLyCHDoGiaDung
             // columnHeader5
             // 
             this.columnHeader5.Text = "MÃ KH";
-            this.columnHeader5.Width = 136;
+            this.columnHeader5.Width = 75;
             // 
             // columnHeader6
             // 
             this.columnHeader6.Text = "HỌ VÀ TÊN";
-            this.columnHeader6.Width = 300;
+            this.columnHeader6.Width = 197;
             // 
             // columnHeader7
             // 
@@ -499,10 +500,10 @@ namespace QuanLyCHDoGiaDung
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(713, 108);
+            this.textBox2.Location = new System.Drawing.Point(535, 88);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(167, 27);
+            this.textBox2.Size = new System.Drawing.Size(126, 23);
             this.textBox2.TabIndex = 11;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             this.textBox2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyUp);
@@ -510,10 +511,10 @@ namespace QuanLyCHDoGiaDung
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(729, 86);
+            this.label14.Location = new System.Drawing.Point(547, 70);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(127, 20);
+            this.label14.Size = new System.Drawing.Size(109, 17);
             this.label14.TabIndex = 12;
             this.label14.Text = "Tìm khách hàng";
             // 
@@ -521,10 +522,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Silver;
-            this.label15.Location = new System.Drawing.Point(699, 10);
+            this.label15.Location = new System.Drawing.Point(524, 8);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(176, 40);
+            this.label15.Size = new System.Drawing.Size(144, 34);
             this.label15.TabIndex = 10;
             this.label15.Text = "TỔNG KHÁCH HÀNG\r\n15";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -533,10 +534,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Silver;
-            this.label16.Location = new System.Drawing.Point(12, 20);
+            this.label16.Location = new System.Drawing.Point(9, 16);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(229, 20);
+            this.label16.Size = new System.Drawing.Size(183, 17);
             this.label16.TabIndex = 9;
             this.label16.Text = "DANH SÁCH KHÁCH HÀNG";
             // 
@@ -547,7 +548,7 @@ namespace QuanLyCHDoGiaDung
             this.label17.Location = new System.Drawing.Point(0, 0);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(911, 59);
+            this.label17.Size = new System.Drawing.Size(681, 48);
             this.label17.TabIndex = 8;
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -568,11 +569,11 @@ namespace QuanLyCHDoGiaDung
             this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.label7);
             this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.Location = new System.Drawing.Point(4, 33);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(911, 479);
+            this.tabPage1.Size = new System.Drawing.Size(681, 386);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "TRANG CHỦ";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
@@ -581,10 +582,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label22.BackColor = System.Drawing.Color.DarkOrange;
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(674, 363);
+            this.label22.Location = new System.Drawing.Point(506, 295);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(187, 90);
+            this.label22.Size = new System.Drawing.Size(140, 73);
             this.label22.TabIndex = 46;
             this.label22.Text = "5000";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -593,10 +594,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label29.BackColor = System.Drawing.Color.Goldenrod;
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(674, 247);
+            this.label29.Location = new System.Drawing.Point(506, 201);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(187, 90);
+            this.label29.Size = new System.Drawing.Size(140, 73);
             this.label29.TabIndex = 45;
             this.label29.Text = "5000";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -604,10 +605,10 @@ namespace QuanLyCHDoGiaDung
             // label30
             // 
             this.label30.BackColor = System.Drawing.Color.Khaki;
-            this.label30.Location = new System.Drawing.Point(674, 132);
+            this.label30.Location = new System.Drawing.Point(506, 107);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(187, 90);
+            this.label30.Size = new System.Drawing.Size(140, 73);
             this.label30.TabIndex = 44;
             this.label30.Text = "5000";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -616,10 +617,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label23.Location = new System.Drawing.Point(727, 97);
+            this.label23.Location = new System.Drawing.Point(545, 79);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(76, 20);
+            this.label23.Size = new System.Drawing.Size(64, 17);
             this.label23.TabIndex = 43;
             this.label23.Text = "Hôm nay";
             this.label23.Click += new System.EventHandler(this.label23_Click);
@@ -628,10 +629,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label21.Location = new System.Drawing.Point(505, 97);
+            this.label21.Location = new System.Drawing.Point(379, 79);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(56, 20);
+            this.label21.Size = new System.Drawing.Size(48, 17);
             this.label21.TabIndex = 41;
             this.label21.Text = "Tất cả";
             this.label21.Click += new System.EventHandler(this.label21_Click);
@@ -640,10 +641,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.lblDTTatCa.BackColor = System.Drawing.Color.DarkOrange;
             this.lblDTTatCa.ForeColor = System.Drawing.Color.White;
-            this.lblDTTatCa.Location = new System.Drawing.Point(443, 363);
+            this.lblDTTatCa.Location = new System.Drawing.Point(332, 295);
             this.lblDTTatCa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDTTatCa.Name = "lblDTTatCa";
-            this.lblDTTatCa.Size = new System.Drawing.Size(187, 90);
+            this.lblDTTatCa.Size = new System.Drawing.Size(140, 73);
             this.lblDTTatCa.TabIndex = 38;
             this.lblDTTatCa.Text = "5000";
             this.lblDTTatCa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -652,10 +653,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.lblKHTatCa.BackColor = System.Drawing.Color.Goldenrod;
             this.lblKHTatCa.ForeColor = System.Drawing.Color.White;
-            this.lblKHTatCa.Location = new System.Drawing.Point(443, 247);
+            this.lblKHTatCa.Location = new System.Drawing.Point(332, 201);
             this.lblKHTatCa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblKHTatCa.Name = "lblKHTatCa";
-            this.lblKHTatCa.Size = new System.Drawing.Size(187, 90);
+            this.lblKHTatCa.Size = new System.Drawing.Size(140, 73);
             this.lblKHTatCa.TabIndex = 35;
             this.lblKHTatCa.Text = "5000";
             this.lblKHTatCa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -664,10 +665,10 @@ namespace QuanLyCHDoGiaDung
             // lblSPTatCa
             // 
             this.lblSPTatCa.BackColor = System.Drawing.Color.Khaki;
-            this.lblSPTatCa.Location = new System.Drawing.Point(443, 132);
+            this.lblSPTatCa.Location = new System.Drawing.Point(332, 107);
             this.lblSPTatCa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSPTatCa.Name = "lblSPTatCa";
-            this.lblSPTatCa.Size = new System.Drawing.Size(187, 90);
+            this.lblSPTatCa.Size = new System.Drawing.Size(140, 73);
             this.lblSPTatCa.TabIndex = 32;
             this.lblSPTatCa.Text = "5000";
             this.lblSPTatCa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -676,10 +677,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label11.BackColor = System.Drawing.Color.DarkOrange;
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(43, 363);
+            this.label11.Location = new System.Drawing.Point(32, 295);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(357, 90);
+            this.label11.Size = new System.Drawing.Size(268, 73);
             this.label11.TabIndex = 31;
             this.label11.Text = "DOANH THU";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -688,10 +689,10 @@ namespace QuanLyCHDoGiaDung
             // 
             this.label10.BackColor = System.Drawing.Color.Goldenrod;
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(43, 247);
+            this.label10.Location = new System.Drawing.Point(32, 201);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(357, 90);
+            this.label10.Size = new System.Drawing.Size(268, 73);
             this.label10.TabIndex = 30;
             this.label10.Text = "TỔNG KHÁCH HÀNG";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -700,10 +701,10 @@ namespace QuanLyCHDoGiaDung
             // label9
             // 
             this.label9.BackColor = System.Drawing.Color.Khaki;
-            this.label9.Location = new System.Drawing.Point(43, 132);
+            this.label9.Location = new System.Drawing.Point(32, 107);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(357, 90);
+            this.label9.Size = new System.Drawing.Size(268, 73);
             this.label9.TabIndex = 29;
             this.label9.Text = "TỔNG SẢN PHẨM ĐÃ BÁN";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -711,10 +712,10 @@ namespace QuanLyCHDoGiaDung
             // label8
             // 
             this.label8.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label8.Location = new System.Drawing.Point(463, 13);
+            this.label8.Location = new System.Drawing.Point(347, 11);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(333, 56);
+            this.label8.Size = new System.Drawing.Size(250, 46);
             this.label8.TabIndex = 28;
             this.label8.Text = "SẢN PHẨM HIỆN CÓ\r\n30";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -722,10 +723,10 @@ namespace QuanLyCHDoGiaDung
             // label7
             // 
             this.label7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label7.Location = new System.Drawing.Point(130, 13);
+            this.label7.Location = new System.Drawing.Point(98, 11);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(333, 56);
+            this.label7.Size = new System.Drawing.Size(250, 46);
             this.label7.TabIndex = 27;
             this.label7.Text = "TỔNG NHÂN VIÊN\r\n 0";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -737,21 +738,21 @@ namespace QuanLyCHDoGiaDung
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(115, 55);
+            this.tabControl1.Location = new System.Drawing.Point(86, 45);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.Padding = new System.Drawing.Point(10, 5);
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(919, 516);
+            this.tabControl1.Size = new System.Drawing.Size(689, 419);
             this.tabControl1.TabIndex = 35;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // QuanLyTrangChu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1106, 577);
+            this.ClientSize = new System.Drawing.Size(830, 469);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);

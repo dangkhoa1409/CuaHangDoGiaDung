@@ -87,13 +87,24 @@ namespace QuanLyCHDoGiaDung
             newItem.SubItems.Add(product.getGia() + "");
             listView1.Items.Add(newItem);
             addImage(product.getImage(), image);
+            resetForm();
             image = null;
+        }
+        private void resetForm()
+        {
+            this.textBox1.Clear();
+            this.textBox2.Clear();
+            this.textBox3.Clear();
+            this.textBox4.Clear();
+            this.textBox5.Clear();
+            this.comboBox1.SelectedIndex = 0;
         }
         private void addImage(String fileName, String filePath)
         {
             string imagePath = Path.Combine(Application.StartupPath, "..\\..\\images",fileName);
             Image image = Image.FromFile(filePath);
             image.Save(imagePath, ImageFormat.Png);
+
         }
 
         internal void renderData(product product)
@@ -110,12 +121,17 @@ namespace QuanLyCHDoGiaDung
 
         private void button4_Click(object sender, EventArgs e)
         {
-            product product = getProduct();
-            component.model.updateProductById(product);
+            product newProduct = getProduct();
+            product product = component.model.getProductById(newProduct.getMaSp());
+            if (!(newProduct.getImage().Equals(product.getImage())))
+            {
+                addImage(newProduct.getImage(), image);
+            }
+            component.model.updateProductById(newProduct);
             clearListView();
             List<product> products = component.model.getProducts();
             renderProduct(products);
-
+            resetForm();
         }
         private void clearListView()
         {

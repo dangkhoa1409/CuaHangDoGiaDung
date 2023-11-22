@@ -22,7 +22,10 @@ namespace QuanLyCHDoGiaDung
         private void TrangChu_Load(object sender, EventArgs e)
             
         {
-            
+            label1.Cursor = Cursors.Hand;
+            label3.Cursor = Cursors.Hand;
+            label5.Cursor = Cursors.Hand;
+            label8.Cursor = Cursors.Hand;
             // Thêm menu con **Home** vào MenuStrip
             /*MenuStrip menuStrip = new MenuStrip();
             menuStrip.Items.Add("Home");*/
@@ -104,6 +107,7 @@ namespace QuanLyCHDoGiaDung
 
         private void label5_MouseClick(object sender, MouseEventArgs e)
         {
+            panel2.Visible = false;
             FlowLayoutPanel flowLayoutPanel = new FlowLayoutPanel();
             flowLayoutPanel.Location = new Point(10, 80);
             flowLayoutPanel.Size = new Size(1000, 1000);
@@ -120,6 +124,7 @@ namespace QuanLyCHDoGiaDung
                 Label label1 = new Label();
                 panel1.Size = new Size(300, 200);
                 label1.Text = products[i].getTenSp();
+                panel1.Cursor = Cursors.Hand;
                 panel1.Location = new Point(0, locationPanel);
                 label1.Location = new Point(10, 160);
                 PictureBox picture1 = new PictureBox();
@@ -239,12 +244,18 @@ namespace QuanLyCHDoGiaDung
 
         private void label8_Click(object sender, EventArgs e)
         {
-            
+            cart form = new cart();
+            form.ShowDialog();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = true;
         }
     }
 }
